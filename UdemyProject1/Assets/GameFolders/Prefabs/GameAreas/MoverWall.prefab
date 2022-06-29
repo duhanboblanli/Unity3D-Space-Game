@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f91bd7a13687bf47a781a7f69a553d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _direction: {x: 0, y: 0, z: 0}
-  _factor: 0
+  _direction: {x: 0, y: 0, z: 5}
+  _speed: 5
 --- !u!1001 &7826138948494734751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25,17 +25,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoverWall
       objectReference: {fileID: 0}
+    - target: {fileID: 2317557307139262166, guid: 3c4293a03f5bf3f4e8c6c4e1fb22a6a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a30481051c6ad43658659dd77be16940, type: 2}
     - target: {fileID: 8756497117060118114, guid: 3c4293a03f5bf3f4e8c6c4e1fb22a6a9, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8756497117060118114, guid: 3c4293a03f5bf3f4e8c6c4e1fb22a6a9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8756497117060118114, guid: 3c4293a03f5bf3f4e8c6c4e1fb22a6a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.76
       objectReference: {fileID: 0}
     - target: {fileID: 8756497117060118114, guid: 3c4293a03f5bf3f4e8c6c4e1fb22a6a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.87
       objectReference: {fileID: 0}
     - target: {fileID: 8756497117060118114, guid: 3c4293a03f5bf3f4e8c6c4e1fb22a6a9, type: 3}
       propertyPath: m_LocalPosition.z
